@@ -1,0 +1,25 @@
+body,
+.navbar,
+.nav-link,
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cobalt-navbar {
+    background-color: #1E2A38;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cobalt-navbar .nav-link {
+    color: #C8D1E0;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.cobalt-navbar .nav-link:hover {
+    color: #F5F5F5;
+}
+
+.cobalt-navbar .navbar-brand img {
+    border-radius: 8px;
+}
