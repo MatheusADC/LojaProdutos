@@ -44,10 +44,10 @@ $paginaAtual = basename($_SERVER['PHP_SELF']);
             <a class="nav-link <?= $paginaAtual === 'login.php' ? 'active' : '' ?>" href="login.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?= $paginaAtual === 'consultar.php' ? 'active' : '' ?>" href="#">Produtos</a>
+            <a class="nav-link <?= $paginaAtual === 'consultar.php' ? 'active' : '' ?>" href="consultar.php">Produtos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link <?= $paginaAtual === 'cadastrarproduto.php' ? 'active' : '' ?>" href="cadastrarproduto.php">Novo Produto</a>
           </li>
         </ul>
       </div>
