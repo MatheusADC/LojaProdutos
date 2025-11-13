@@ -1,0 +1,48 @@
+body {
+    background-color: #1E2A38;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cobalt-card {
+    background-color: #2A3B4D;
+    border: none;
+    border-radius: 10px;
+}
+
+h4 {
+    color: #F5F5F5;
+}
+
+label {
+    color: #C8D1E0;
+}
+
+input.form-control {
+    background-color: #3B4D63;
+    border: 1px solid #5C7B95;
+    color: #FFFFFF;
+}
+
+input.form-control::placeholder {
+    color: #A0B0C0;
+}
+
+.text-danger {
+    font-size: 13px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(74%) sepia(87%) saturate(633%) hue-rotate(360deg) brightness(91%) contrast(103%);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .cobalt-card {
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+}
